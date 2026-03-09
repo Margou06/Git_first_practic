@@ -31,7 +31,7 @@ def calculator():
                 print("Ошибка: деление на ноль!")
             else:
                 print(f"Результат: {num1 / num2}")
-        elif choice == '**':
+        elif choice == '^':
             print(f"Результат: {num1 ** num2}")
         else:
             print("Неизвестная операция!")
