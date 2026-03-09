@@ -7,7 +7,7 @@ def calculator():
         choice = input("Выберите операцию: ")
 
         # Проверка на выход
-        if choice.lower() == 'exit':
+        if choice.lower() == 'exite':
             print("До свидания!")
             break
 
